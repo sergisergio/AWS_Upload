@@ -32,6 +32,9 @@ $s3 = new S3Client([
     ]);
 
 
+var_dump($_FILES['uploadfile']['name']);
+die();
+
 // Envoi du fichier
 $result = $s3->putObject(array(
     'Bucket' => $bucket,

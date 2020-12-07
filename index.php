@@ -14,13 +14,9 @@
             <p class="mt-4">Qu'allez-vous uploader aujourd'hui ?</p>
 
             <form method="post" action="upload.php" enctype="multipart/form-data" style="margin-top: 100px;">
-                <div class="custom-file col-md-6">
-                    <input type="file" class="custom-file-input" name="uploadfile"  id="customFile"/>
-                    <label class="custom-file-label" for="customFile">Sélectionner un fichier</label>
-                </div>
-                <div class="mt-4">
+                    <label for="customFile"></label>
+                    <input type="file" name="uploadfile"  id="customFile"/><br><br>
                     <input type="submit" class="btn btn-primary" value="Uploadez-moi !" />
-                </div>
             </form>
         </div>
 
